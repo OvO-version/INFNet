@@ -33,10 +33,8 @@ INFNet 是一种新型医学图像分割框架，通过引入结构感知瓶颈�
 ```bash
 INFNet/
 ├── data/                   # 数据集根目录（需手动放置）
-├── models/
-│   └── infnet.py          # INFNet 主模型代码
 ├── train.py               # 训练脚本
-├── test.py                # 测试与评估脚本
+├── output
 ├── visualize_results.py   # 生成实验图表（Dice 箱线图、前景比例分布等）
 └── README.md
 
